@@ -1,0 +1,278 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 67px;
+  font-size: 30px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+ }
+
+body {
+    height: 100%;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: 280px 130px;
+}
+
+ul.lista{
+    list-style: none;
+    margin: 0;
+    padding: 0;      
+}
+
+ul.lista li{
+    float: left;
+    padding: .50%;
+    text-align: center; 
+    margin-top: -16px;       
+}
+
+ul.lista li#Alcalinos{
+    padding: .54%;   
+}
+
+label {
+    display:block;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+label #grupo{
+    display:auto !important;   
+}
+
+ul.lista li.dos{
+    margin-top: 45px;
+}
+
+ul.lista li.tres{
+    margin-top: 165px;
+}
+
+ul.lista li:nth-child(18n+1){
+    clear: both;
+}
+
+#Alcalinos button:not(.H){
+    background-color: orange; 
+}
+
+.H{
+    background-color: gray;
+    color: #FA5882;
+}
+
+#Metales button:not(#G):not(#B){
+    background-color: #F7819F;
+}
+
+#AlcalinoTerreos button{
+    background-color: yellow;
+}
+
+#Metales2 button:not(#B):not(#G):not(#Cf){
+    background-color: dodgerblue;
+}
+
+#B{
+    background-color: greenyellow;
+}
+
+#NoMetales button:not(#Ts):not(#G):not(#No):not(#B){
+    background-color: greenyellow; 
+}
+
+#Gases button:not(#Uuo):not(#G):not(#B){
+    background-color: aqua;
+}
+
+#G{
+    background-color: #58FA82;     
+}
+
+#V{
+    background-color: greenyellow;     
+}
+
+#A{
+    background-color: dodgerblue; 
+}
+
+#B{
+    background-color: brown;       
+}
+
+#Hg{
+    color: green;
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+
+button:hover{
+    color: blue;
+    background-color: white !important;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9); 
+  }
+
+  button:hover .H{
+    color: blue;
+    background-color: orange !important;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);   
+  }
+
+ span{
+    position:absolute;
+    top: 630px;
+    left: 25px;
+ }
+
+ span#Geo{
+    position:absolute;
+    top: 590px;
+    left: 40px;
+ }
+
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 100px;
+}
+
+form#hibrid select {
+    position:absolute;
+    top: 680px;
+    left: 75px;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 100px;
+}
+
+option#sp1{
+    align-items: center;
+    position:absolute;
+    top: 600px;
+    left: 75px;
+}
+
+div.navegacion{
+    background-color: black;
+    position:absolute;
+    top: 0px;
+}
+
+nav {
+  width: 1349.5px;
+  margin:0 auto;
+  position: relative;
+ 
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 269.7px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+nav ul li:hover {
+  background-color: rgba(0,184,228, .7);
+}
+
+footer {
+  background-color: #fe8000;;
+  padding-top: 20px;
+  clear: both;
+  margin-top: 250px;
+}
+
+footer h2 {
+    color: black;
+}
+footer .final::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer .nosotros {
+  float: left;  
+  width: 30%;
+  color: black;
+  padding-left: 40px;
+}
+footer .menu {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+footer nav {
+  width: auto;
+}
+footer nav a {
+  color: black;
+  text-decoration: none;
+}
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+p.pie{
+  font-size: 24px;
+  
+}

@@ -1,0 +1,132 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 67px;
+  font-size: 30px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+ }
+
+div.navegacion{
+    background-color: black;
+    position:absolute;
+    top: 0px;
+}
+
+nav {
+  width: 1349.5px;
+  margin:0 auto;
+  position: relative;
+ 
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 269.7px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+nav ul li:hover {
+  background-color: rgba(0,184,228, .7);
+}
+
+div.contenedor{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+div.contendedor a:hover{
+  color: blue;
+}
+
+h2.uno{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+
+footer {
+  background-color: #fe8000;;  
+  padding-top: 25px !important;
+  margin-top: 100px !important;
+  clear: both !important;
+}
+
+footer h2 {
+    color: #black;
+}
+footer .final::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer .nosotros {
+  float: left;  
+  width: 30%;
+  color: black;
+  padding-left: 40px;
+}
+footer .menu {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+footer nav {
+  width: auto;
+}
+footer nav a {
+  color: black;
+  text-decoration: none;
+}
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+p.pie{
+  font-size: 24px;
+  
+}
+

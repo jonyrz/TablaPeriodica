@@ -1,0 +1,280 @@
+<html>
+    <head>
+        <title>Tabla Periodica</title>
+        <meta charset="UTF-8">
+        <script src="js/javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/TablaPeriodica.css">
+    </head>
+    <header>
+        <h1>Tabla Periodica</h1><br><br><br><br>
+    </header>
+
+    <body>
+        <div class="navegacion">
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="DatosCurso.html">Datos del curso</a></li>
+                    <li><a href="TablaPeriodica.html">Tabla periodica</a></li>
+                    <li><a href="Definiciones.html">Definiciones</a></li>
+                    <li><a href="EjemplosEjercicios.html">Ejemplos y Ejercicios</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div class="contenedor">           
+            <ul class="lista">
+
+                <li class="uno" id="Alcalinos">
+                	<label> &nbsp&nbsp&nbsp&nbsp I A </label>
+                	<label id="grupo">  1 &nbsp
+                    <button onclick="Hidrogeno(this);" class="H">H</button> </label>
+                    <label id="grupo"> 2 &nbsp
+                    <button onclick="Litio(this);">Li</button> </label>
+                    <label id="grupo"> 3 &nbsp
+                    <button onclick="Sodio(this);">Na</button> </label>
+                    <label id="grupo"> 4 &nbsp
+                    <button onclick="Potasio(this);">K</button> </label>
+                    <label id="grupo"> 5 &nbsp
+                    <button onclick="Rubidio(this);">Rb</button> </label>
+                    <label id="grupo"> 6 &nbsp
+                    <button onclick="Cesio(this);">Cs</button> </label>
+                    <label id="grupo"> 7 &nbsp
+                    <button onclick="Francio(this);">Fr</button> </label>                    
+                </li>
+
+        
+                <li class="dos" id="AlcalinoTerreos">
+                	<label> II A </label>
+                    <button onclick="Berilio(this);">Be</button> <br>
+                    <button onclick="Magnesio(this);">Mg</button> <br>
+                    <button onclick="Calcio(this);">Ca</button> <br>
+                    <button onclick="Estroncio(this);">Sr</button> <br>
+                    <button onclick="Bario(this);">Ba</button> <br>
+                    <button onclick="Radio(this);">Ra</button> <br>
+                    
+                </li>
+                
+                <li class="tres" id="Metales">
+                	<label> III B </label>
+                    <button onclick="Escandio(this);">Sc</button> <br>
+                    <button onclick="Itrio(this);">Y</button> <br>
+                    <button onclick="LaLu(this);"></button> <br>
+                    <button onclick="AcLr(this);"></button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> IV B </label>
+                    <button onclick="Titanio(this);">Ti</button> <br>
+                    <button onclick="Circonio(this);">Zr</button> <br>
+                    <button onclick="Hafnio(this);">Hf</button> <br>
+                    <button onclick="Rutherfordio(this);">Rf</button> <br><br>
+                    <button onclick="Lantano(this);">La</button> <br> 
+                    <button onclick="Actinio(this);">Ac</button> <br><br><br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> V B </label>
+                    <button onclick="Vanadio(this);">V</button> <br>
+                    <button onclick="Niobio(this);">Nb</button> <br>
+                    <button onclick="Tantalio(this);">Ta</button> <br>
+                    <button onclick="Dubnio(this);">Db</button> <br><br>
+                    <button onclick="Cerio(this);" id="G">Ce</button> <br>
+                    <button onclick="Torio(this);" id="B">Th</button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> VI B </label>
+                    <button onclick="Cromo(this);">Cr</button> <br>
+                    <button onclick="Molibdeno(this);">Mo</button> <br>
+                    <button onclick="Wolframio(this);">W</button> <br>
+                    <button onclick="Seaborgio(this);">Sg</button> <br><br>
+                    <button onclick="Praseodimio(this);" id="G">Pr</button> <br>
+                    <button onclick="Protactinio(this);" id="B">Pa</button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> VI B </label>
+                    <button onclick="Manganeso(this);">Mn</button> <br>
+                    <button onclick="Tecnecio(this);">Tc</button> <br>
+                    <button onclick="Renio(this);">Re</button> <br>
+                    <button onclick="Bohrio(this);">Bh</button> <br><br>
+                    <button onclick="Neodmio(this);" id="G">Nd</button> <br>
+                    <button onclick="Uranio(this);" id="B">U</button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> VIII B </label>
+                    <button onclick="Hierro(this);">Fe</button> <br>
+                    <button onclick="Rutenio(this);">Ru</button> <br>
+                    <button onclick="Osmio(this);">Os</button> <br>
+                    <button onclick="Hassio(this);">Hs</button> <br><br>
+                    <button onclick="Prometio(this);" id="G">Pm</button> <br>
+                    <button onclick="Neptunio(this);" id="B">Np</button> <br>
+                </li>
+        
+                <li class="tres" id="Metales">
+                	<label> VIII B </label>
+                    <button onclick="Cobalto(this);">Co</button> <br>
+                    <button onclick="Rodio(this);">Rh</button> <br>
+                    <button onclick="Iridio(this);">Ir</button> <br>
+                    <button onclick="Meitnerio(this);">Mt</button> <br><br>
+                    <button onclick="Samario(this);" id="G">Sm</button> <br>
+                    <button onclick="Plutonio(this);" id="B">Pu</button> <br>
+                </li>
+        
+                <li class="tres" id="Metales">
+                	<label> VIII B </label>
+                    <button onclick="Niquel(this);">Ni</button> <br>
+                    <button onclick="Paladio(this);">Pd</button> <br>
+                    <button onclick="Platino(this);">Pt</button> <br>
+                    <button onclick="Dermstadio(this);">Ds</button> <br><br>
+                    <button onclick="Europio(this);" id="G">Eu</button> <br>
+                    <button onclick="Americio(this);" id="B">Am</button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> I B </label>
+                    <button onclick="Cobre(this);">Cu</button> <br>
+                    <button onclick="Plata(this);">Ag</button> <br>
+                    <button onclick="Oro(this);">Au</button> <br>
+                    <button onclick="Roentgenio(this);">Rg</button> <br><br>
+                    <button onclick="Gadolionio(this);" id="G">Gd</button> <br>
+                    <button onclick="Curio(this);" id="B">Cm</button> <br>
+                </li>
+
+                <li class="tres" id="Metales">
+                	<label> I B </label>
+                    <button onclick="Cinc(this);">Zn</button> <br>
+                    <button onclick="Cadmio(this);">Cd</button> <br>
+                    <button onclick="Mercurio(this);" id="Hg">Hg</button> <br>
+                    <button onclick="Copernico(this);">Cn</button> <br><br>
+                    <button onclick="Terbio(this);" id="G">Tb</button> <br>
+                    <button onclick="Berkelio(this);" id="B">Bk</button> <br>
+                </li>
+
+                <li class="dos" id="Metales2">
+                	<label> III A </label>
+                    <button onclick="Boro(this);" id="B">B</button> <br>
+                    <button onclick="Aluminio(this);">Al</button> <br>
+                    <button onclick="Galio(this);">Ga</button> <br>
+                    <button onclick="Indio(this);">In</button> <br>
+                    <button onclick="Talio(this);">Ti</button> <br>
+                    <button onclick="Nihonium(this);">Nh</button> <br><br>
+                    <button onclick="Disprosio(this);" id="G">Dy</button> <br>
+                    <button onclick="Californio(this);" id="B">Cf</button> <br>
+                </li>
+
+                <li class="dos">
+                	<label> IV A </label>
+                    <button onclick="Carbono(this);" id="V">C</button> <br>
+                    <button onclick="Silicio(this);" id="V">Si</button> <br>
+                    <button onclick="Germanio(this);" id="A">Ge</button> <br>
+                    <button onclick="Estaño(this);" id="A">Sn</button> <br>
+                    <button onclick="Plomo(this);" id="A">Pb</button> <br>
+                    <button onclick="Flerovio(this);" id="A">Fl</button> <br><br>
+                    <button onclick="Holmio(this);" id="G">Ho</button> <br>
+                    <button onclick="Einstenio(this);" id="B">Es</button> <br>
+                </li>
+
+                <li class="dos">
+                	<label> V A </label>
+                    <button onclick="Nitrogeno(this);"" id="V">N</button> <br>
+                    <button onclick="Fosforo(this);" id="V">P</button> <br>
+                    <button onclick="Arsenico(this);" id="V">As</button> <br>
+                    <button onclick="Antimonio(this);" id="A">Sb</button> <br>
+                    <button onclick="Bismuto(this);" id="A">Bi</button> <br>
+                    <button onclick="Moscovium(this);" id="A">Mc</button> <br><br>
+                    <button onclick="Erbio(this);" id="G">Er</button> <br>
+                    <button onclick="Fermio(this);" id="B">Fm</button> <br>
+                </li>
+
+                <li class="dos">
+                	<label> VL A </label>
+                    <button onclick="Oxigeno(this);" id="V">O</button> <br>
+                    <button onclick="Azufre(this);" id="V">S</button> <br>
+                    <button onclick="Selenio(this);" id="V">Se</button> <br>
+                    <button onclick="Telurio(this);" id="V">Te</button> <br>
+                    <button onclick="Polonio(this);" id="A">Po</button> <br>
+                    <button onclick="Livermonio(this);" id="A">Lv</button> <br><br>
+                    <button onclick="Tulio(this);" id="G">Tm</button> <br>
+                    <button onclick="Mendelevio(this);" id="B">Md</button> <br>
+                </li>
+                
+                <li class="dos" id="NoMetales">
+                	<label> VII A </label>
+                    <button onclick="Fluor(this);" class="F">F</button> <br>
+                    <button onclick="Cloro(this);">Cl</button> <br>
+                    <button onclick="Bromo(this);">Br</button> <br>
+                    <button onclick="Yodo(this);">I</button> <br>
+                    <button onclick="Astato(this);">At</button> <br>
+                    <button onclick="Tennessine(this);" id="Ts">Ts</button> <br><br>
+                    <button onclick="Iterbio(this);" id="G">Yb</button> <br>
+                    <button onclick="Nobelio(this);" id="B">No</button> <br>
+                </li>
+        
+                <li class="cinco" id="Gases">
+                	<label> VIII A </label>
+                    <button onclick="Helio(this);">He</button> <br>
+                    <button onclick="Neon(this);">Ne</button> <br>
+                    <button onclick="Argon(this);">Ar</button> <br>
+                    <button onclick="Kripton(this);">Kr</button> <br>
+                    <button onclick="Xenon(this);">Xe</button> <br>
+                    <button onclick="Radon(this);">Rn</button> <br>
+                    <button onclick="Oganesson(this);" id="Uuo">Uuo</button> <br><br>
+                    <button onclick="Lutecio(this);" id="G">Lu</button> <br>
+                    <button onclick="Lawrencio(this);" id="B">Lr</button> <br>
+                </li>
+            </ul>
+        </div>
+    </body>
+    		<span>
+            	<form name="f1"> 
+					<select name="selec" onchange="cambiaGeometria()">
+					<option value="0" selected>Seleccionar 
+					<option value="1"> Lineal 
+					<option value="2"> Angular 
+					<option value="3"> Trigonal 
+					<option value="4"> Piramide Trigonal 
+					<option value="5"> Tetraedrica 	
+					</select>
+					<select name=geometria> 
+					<option value="-">- 
+					</select> 
+				</form>
+			</span>
+			<span id="Geo">
+				<h3>Geometria Molecular</h3>
+			</span>           
+                <form name="f2" id="hibrid">
+                    <select onchange="document.getElementById('im').src = this.value">
+                    <option value="img/sp1.png" id="sp1">sp1</option>
+                    <option value="img/sp2.jpg">sp2</option>
+                    <option value="img/sp3.png">sp3</option>
+                    </select>
+                </form> 
+        <footer>
+          <div class="final">
+              <div class="nosotros">
+                  <h2>Instituto Tecnológico de Queretaro</h2>
+                  <p align="center">
+                    Rendon Zamora Jonathan Omar
+                  </p>
+              </div>
+              <div class="menu">
+                <h2>Menú de navegación</h2>
+                <nav>
+                 <a href="Index.html">Inicio</a>
+              <a href="DatosCurso.html">Datos del curso</a>
+              <a href="TablaPeriodica.html">Tabla periodica</a></li>
+              <a href="Definiciones.html">Definiciones</a>
+              <a href="EjemplosEjercicios.html">Ejemplos y Ejercicios</a>
+                </nav>
+              </div>
+          </div>
+
+          <p class="copyright">
+              Todos los derechos reservados &copy;. 2018
+          </p>
+        </footer>
+</html>

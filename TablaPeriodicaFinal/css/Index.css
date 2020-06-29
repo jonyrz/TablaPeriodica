@@ -1,0 +1,176 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  margin top: 67px;
+  font-size: 30px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+
+ }
+
+ h2.esp{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 65px;
+  font-size: 27px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+ }
+
+ h3{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 65px;
+  font-size: 25px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+ }
+
+h4{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 65px;
+  font-size: 23px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 15px;
+ }
+
+img.TecNM{
+  margin-left: 30px;
+  margin-top: 75px;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+}
+
+img.ITQ{
+  margin-left: 1065px;
+  margin-top: 75px;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+}
+
+img.Atomo{
+  top: 75px;
+  margin-left: 575px;
+  position: relative;
+}
+
+
+div.navegacion{
+    background-color: black;
+    position:absolute;
+    top: 0px;
+}
+
+nav {
+  width: 1349.7px;
+  margin:0 auto;
+  position: relative;
+ 
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 269.7px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+nav ul li:hover {
+  background-color: rgba(0,184,228, .7);
+}
+
+footer {
+  background-color: #fe8000;
+  padding-top: 25px;
+  clear: both;
+  margin-top: 150px;
+}
+
+footer h2 {
+    color: black;
+}
+footer .final::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer .nosotros {
+  float: left;  
+  width: 30%;
+  color: black;
+  padding-left: 40px;
+}
+footer .menu {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+footer nav {
+  width: auto;
+}
+footer nav a {
+  color: black;
+  text-decoration: none;
+}
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+p.pie{
+  font-size: 24px;
+  
+}
+
+

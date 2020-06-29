@@ -1,0 +1,185 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  top: 67px;
+  font-size: 30px;
+  padding: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 90px;
+ }
+
+ h5{
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 30px;
+ }
+
+ h5.proy{
+  margin-left: -220px;
+  font-size: 20px;
+ }
+
+ p.proy{
+  margin-left: 480px;
+ }
+
+ h5.proyecto{
+  text-align: center;
+ }
+
+ h5.crit{
+  top: 300px;
+  left: 730px;
+  position:absolute;
+  font-size: 20px;
+ }
+
+ p.crit{
+  top: 376px;
+  left: 710px;
+  position:absolute;
+ }
+
+ ul.uno{
+   top: 395px;
+  left: 710px;
+  position:absolute;
+ }
+
+ li.pres{
+  margin-left: 40px;
+ }
+
+ h3{
+  text-align: center;
+  margin-top: 20px;
+ }
+
+ p.cont{
+  text-align: center;
+ }
+
+ p.proy{
+  text-align: left;
+ }
+
+ p.exm{
+  text-align: center;
+ }
+
+ h5.contacto{
+  text-align: center;
+  margin-top: 40px;
+ }
+
+ h5.examenes{
+  margin-top: 50px;
+ }
+
+div.navegacion{
+    background-color: black;
+    position:absolute;
+    top: 0px;
+}
+
+nav {
+  width: 1349.5px;
+  margin:0 auto;
+  position: relative;
+ 
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 269.7px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
+
+nav ul li:hover {
+  background-color: rgba(0,184,228, .7);
+}
+
+footer {
+  background-color: #fe8000;;
+  padding-top: 25px;
+  margin-top: 100px;
+  clear: both;
+}
+
+footer h2 {
+    color: black;
+}
+footer .final::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+footer .nosotros {
+  float: left;  
+  width: 30%;
+  color: black;
+  padding-left: 40px;
+}
+footer .menu {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+footer nav {
+  width: auto;
+}
+footer nav a {
+  color: black;
+  text-decoration: none;
+}
+p.copyright {
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+}
+
+p.pie{
+  font-size: 24px;
+  
+}
